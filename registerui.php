@@ -81,7 +81,10 @@
           data: { "fname": fname, "lname": lname, "mobile": mobile, "email": email, "password": password },
           success: function (data) {
             alert(data);
-          }
+          },
+        error: function(data){
+                alert(data);
+        }
         });
       }
     </script>
